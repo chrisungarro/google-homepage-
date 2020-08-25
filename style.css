@@ -1,0 +1,135 @@
+
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+img.logo {
+    display: block;
+    margin: auto;
+    height: 40%;
+    width: 40%;
+}
+
+.left {
+    float: left;
+}
+
+.buttons{
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,.6);
+    font-weight: 400;
+    font-size: .9em;
+    border: none;
+    border-radius: 1em;
+}
+
+.buttons:hover {
+    border: 1px solid rgba(0,0,0,.3);
+    color: #000;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#search {
+    position: relative;
+    margin: 0 auto;
+    top: 30%;
+    width: 45%;
+}
+
+#search input {
+    margin: 0 auto;
+    padding: .1em;
+    margin-top: 2em;
+    height: 2.25em;
+    width: 75%;
+    display: block;
+    border-radius: 2em;
+    border: solid 1px;
+    border-color: rgba(0,0,0,.3);
+    background-image: url(searchicon.png);
+    background-position: 10px, 10px;
+    background-size: 1em;
+    background-repeat: no-repeat;
+    text-indent: 2em;
+}
+
+#search input:hover {
+    box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.3);
+}
+
+#buttons {
+    padding-top: 3%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#topnav {
+    padding-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    color: #9F9F9F;
+    overflow: auto;
+}
+
+#topnav ul, #footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline;
+}
+
+#topnav a, #footer a, #topnav a:visited, #footer a:visited {
+    color: #9F9F9F);
+    text-decoration: none;
+}
+
+#topnav a:hover, a:active, #footer a:hover, a:active {
+    text-decoration: underline;
+}
+
+#topnav li, #footer li {
+    display: inline;
+    padding: .5em;
+    vertical-align: middle;
+}
+
+#topnavleft, #footerleft {
+    margin-left: 1em;
+    text-align: left;
+    float: left;
+}
+
+#topnavright, #footerright {
+    margin-right: 1em;
+    text-align: right;
+    float: right;
+}
+
+#account {
+    background-size: 3em;
+    border-radius: 50%;
+    background: url(account.png);
+    background-repeat: no-repeat;
+}
+
+#footer {
+    padding-top: .5em;
+    position: fixed;
+    height: 2em;
+    background-color: #F2F2F2;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    color: #9F9F9F;
+    overflow: auto;
+}
